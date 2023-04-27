@@ -7,6 +7,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  position: absolute;
+  top: 80px;
   /* min-width: 1440px; */
 }
 

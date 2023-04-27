@@ -6,6 +6,8 @@
   align-items: center;
   height: 80px;
   padding: 0 16px;
+  z-index: 1;
+  position: fixed;
 }
 
 .logo {
@@ -34,7 +36,7 @@
   height: 80px;
   font-size: 20px;
   line-height: 80px;
-  width: 96px;
+  width: 104px;
   text-align: center;
 }
 

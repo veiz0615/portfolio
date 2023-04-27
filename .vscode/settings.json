@@ -1,0 +1,163 @@
+{
+    "flow.useNPMPackagedFlow": true,
+    "flow.runOnAllFiles": true,
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "Monokai",
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "eslint.nodePath": "~/.nvm/versions/node/v10.16.3/bin/node",
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "npm.packageManager": "yarn",
+    "cSpell.userWords": [
+        "APIKEY",
+        "audioinput",
+        "clsx",
+        "Debounced",
+        "firebaseui",
+        "firestore",
+        "gintrick",
+        "gitignored",
+        "gmail",
+        "illusts",
+        "immer",
+        "Interop",
+        "inview",
+        "lcov",
+        "macinjoke",
+        "makino",
+        "middlewares",
+        "mrkdwn",
+        "Onair",
+        "Remosea",
+        "rulesdir",
+        "shunji",
+        "stylelint",
+        "svgr",
+        "transparence",
+        "unassert",
+        "unfocus",
+        "usecase",
+        "uuidv",
+        "videoinput"
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.incsearch": false,
+    "vim.ignorecase": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "sync.gist": "7df9dc097a3685c46cad14078119d03c",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "files.useExperimentalFileWatcher": true,
+    "files.exclude": {
+        "/.git": true,
+        "/.DS_Store": true,
+        "/node_modules": true,
+        "/node_modules/": true
+    },
+    "search.exclude": {
+        "/node_modules": true,
+        "_my_gitignored": true
+    },
+    "files.watcherExclude": {
+        "/node_modules/": true
+    },
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "material-icon-theme",
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+    "svg.preview.mode": "svg",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false, // 意図しないファイルまでフォーマットされてしまうので
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        // "source.fixAll.eslint": true,
+        // "source.fixAll.stylelint": true,
+    },
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[smarty]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "indentRainbow.colors": [
+        "rgba(255,0,  0,  0.15)",
+        "rgba(127,255,0,  0.15)",
+        "rgba(0,  255,255,0.15)",
+        "rgba(127,0  ,255,0.15)",
+    ],
+    "files.associations": {
+        "*.scss": "scss"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "solidity.compileUsingRemoteVersion": "v0.5.17+commit.d19bba13.Darwin.appleclang",
+    "editor.stickyScroll.enabled": true,
+    "explorer.confirmDelete": false
+  }
