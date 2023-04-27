@@ -1,4 +1,16 @@
 .root {
   width: 100%;
   justify-content: center;
+  text-align: center;
 }
+
+.title {
+  font-size: 100px;
+  line-height: 324px;
+}
+
+.text {
+  font-size: 32px;
+}
+
+
