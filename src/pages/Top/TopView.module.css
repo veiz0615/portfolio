@@ -1,4 +1,47 @@
 .root {
   width: 100%;
   justify-content: center;
+  text-align: center;
 }
+
+.title {
+  font-size: 100px;
+  line-height: 324px;
+}
+
+.text {
+  font-size: 32px;
+}
+
+.sp {
+  display: none;
+}
+
+@media (max-width: 750px) {
+ .title {
+  font-size: 48px;
+  line-height: 88px;
+  margin-bottom: 80px;
+ }
+
+ .text {
+  font-size: 28px;
+ }
+
+ .sp {
+  display: inline;
+ }
+
+ .spMenu {
+  width: 100%;
+  height: calc(100% - 64px);
+  position: absolute;
+  top: 64px;
+  background: white;
+  z-index: 10;
+ }
+ }
+
+
+
+

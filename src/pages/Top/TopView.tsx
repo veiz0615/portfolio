@@ -1,15 +1,22 @@
-import { FC } from "react";
-import styles from "./TopView.module.css";
+import { FC } from 'react'
+import styles from './TopView.module.css'
 
-type Props = {};
+type Props = {}
 
 const TopView: FC<Props> = () => {
   return (
-    <div className="root">
-      <h1>Welcome to Veiz.Code</h1>
-      <p>このページはNext.jsで作成しています</p>
+    <div className={styles.root}>
+      <h1 className={styles.title}>
+        Welcome to <br className={styles.sp} />
+        Veiz.Code
+      </h1>
+      <p className={styles.text}>
+        Webページは、
+        <br className={styles.sp} />
+        メッセージだ
+      </p>
     </div>
-  );
-};
+  )
+}
 
-export default TopView;
+export default TopView
