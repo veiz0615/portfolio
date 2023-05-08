@@ -2,7 +2,7 @@ import MainLayout from '@/components/MainLayout/MainLayout'
 import styles from './index.module.css'
 import { useRef, useState } from 'react'
 import Link from 'next/link'
-import { montserrat, notoSansJp700 } from '../../../constants/font'
+import { lora700, notoSansJp700 } from '../../../constants/font'
 import clsx from 'clsx'
 
 export default function Contact() {
@@ -36,7 +36,7 @@ export default function Contact() {
     <div>
       <div className={styles.root}>
         <div className={styles.container}>
-          <div className={clsx(styles.title, montserrat.className)}>CONTACT</div>
+          <div className={clsx(styles.title, lora700.className)}>CONTACT</div>
           <div className={clsx(styles.heading, notoSansJp700.className)}>Veizへのお問い合わせ</div>
           {isChecked ? (
             <div className={styles.modalArea}>
