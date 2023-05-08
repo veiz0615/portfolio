@@ -1,11 +1,11 @@
 .root {
-  width: calc(100% - 32px);
+  width: calc(100% - 80px);
   background: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 16px;
+  padding: 0 40px;
   z-index: 1;
   position: fixed;
 }
