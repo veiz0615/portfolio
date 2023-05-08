@@ -1,7 +1,7 @@
 import MainLayout from '@/components/MainLayout/MainLayout'
 import styles from './index.module.css'
 import clsx from 'clsx'
-import { notoSansJp700, montserrat } from '../../../constants/font'
+import { lora700, notoSansJp700 } from '../../../constants/font'
 import SkillView, { IconViewInfo } from './SkillView/SkillView'
 
 export default function Skill() {
@@ -47,7 +47,7 @@ export default function Skill() {
   return (
     <>
       <div className={styles.root}>
-        <div className={clsx(styles.title, montserrat.className)}>MY SKILLS</div>
+        <div className={clsx(styles.title, lora700.className)}>MY SKILLS</div>
         <div className={clsx(styles.heading, notoSansJp700.className)}>スキル一覧</div>
       </div>
       <SkillView iconViewInfos={iconViewInfos} />
