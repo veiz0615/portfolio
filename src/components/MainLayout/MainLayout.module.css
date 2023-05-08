@@ -18,5 +18,6 @@
   .contents {
     width: 100%;
     min-width: unset;
+    top: 64px;
   }
 }

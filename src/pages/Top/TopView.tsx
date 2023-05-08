@@ -6,15 +6,15 @@ type Props = {}
 const TopView: FC<Props> = () => {
   return (
     <div className={styles.root}>
-      <h1 className={styles.title}>
+      <div className={styles.title}>
         Welcome to <br className={styles.sp} />
         Veiz.Code
-      </h1>
-      <p className={styles.text}>
+      </div>
+      <div className={styles.text}>
         Webページは、
         <br className={styles.sp} />
         メッセージだ
-      </p>
+      </div>
     </div>
   )
 }
