@@ -26,7 +26,9 @@ const SkillView: FC<Props> = ({ iconViewInfos }) => {
   return (
     <div className={styles.root}>
       <div className={styles.skills}>
-        <div className={styles.title}>●学習した言語一覧</div>
+        <div className={styles.title}>
+          <span>◆</span>学習した言語<span>◆</span>
+        </div>
         <div className={clsx(styles.icons, styles.icons1)}>
           <IconView imageType={iconViewInfos[0].imageType} name={iconViewInfos[0].name} />
           <IconView imageType={iconViewInfos[1].imageType} name={iconViewInfos[1].name} />
@@ -36,7 +38,9 @@ const SkillView: FC<Props> = ({ iconViewInfos }) => {
       </div>
 
       <div className={styles.flame}>
-        <div className={styles.title}>●使用しているフレームワーク</div>
+        <div className={styles.title}>
+          <span>◆</span>学習したフレームワーク<span>◆</span>
+        </div>
         <div className={clsx(styles.icons, styles.icons2)}>
           <IconView imageType={iconViewInfos[4].imageType} name={iconViewInfos[4].name} />
           <IconView imageType={iconViewInfos[5].imageType} name={iconViewInfos[5].name} />
@@ -44,14 +48,18 @@ const SkillView: FC<Props> = ({ iconViewInfos }) => {
       </div>
       <div className={styles.container}>
         <div className={styles.left}>
-          <div className={styles.title}>●リポジトリ管理</div>
+          <div className={styles.title}>
+            <span>◆</span>リポジトリ管理<span>◆</span>
+          </div>
           <div className={styles.icon}>
             <IconView imageType={iconViewInfos[6].imageType} name={iconViewInfos[6].name} />
           </div>
         </div>
 
         <div className={styles.right}>
-          <div className={styles.title}>●今後学んでいきたい内容</div>
+          <div className={styles.title}>
+            <span>◆</span>今後学んでいきたい内容<span>◆</span>
+          </div>
           <div className={clsx(styles.icons, styles.icons3)}>
             <IconView imageType={iconViewInfos[7].imageType} name={iconViewInfos[7].name} />
             <IconView imageType={iconViewInfos[8].imageType} name={iconViewInfos[8].name} />
