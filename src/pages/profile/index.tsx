@@ -12,7 +12,7 @@ export default function Profile() {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.aboutMe}>
-            <div className={styles.textTitle}>・ABOUT ME</div>
+            <div className={styles.textTitle}>●ABOUT ME</div>
             <div className={styles.text}>
               　私の名前は米津徳人（よねづのりひと）と言います。大学に入学した際、先輩が米津を「べいつ」と読み間違い、そこから転じて「ヴェイツ」となりました。
               <br />
@@ -20,7 +20,7 @@ export default function Profile() {
             </div>
           </div>
           <div className={styles.future}>
-            <div className={styles.textTitle}>・FUTURE VISION</div>
+            <div className={styles.textTitle}>●FUTURE VISION</div>
             <div className={styles.text}>
               　なりたいエンジニア像としては、Webページを作ることが目的ではなく、私が作るWebページで誰かの願いが達成されるというものです。
               <br />

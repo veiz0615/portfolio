@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import MainLayout from '@/components/MainLayout/MainLayout'
 import TopView from './Top/TopView'
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
