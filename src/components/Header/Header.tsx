@@ -18,7 +18,9 @@ const Header: FC<Props> = () => {
   return (
     <div className={styles.root}>
       <Link href={'/'} legacyBehavior>
-        <a className={styles.logo}>Veiz.Code</a>
+        <a className={styles.logo} onClick={clickClose}>
+          Veiz.Code
+        </a>
       </Link>
 
       <div className={styles.right}>

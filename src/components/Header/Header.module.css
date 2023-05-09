@@ -67,7 +67,12 @@
   .logo {
     font-size: 32px;
     line-height: 64px;
-    width: 168px
+    width: 168px;
+  }
+
+  .logo:hover {
+    color: white;
+    background-color: transparent;
   }
 
   .right {
@@ -106,7 +111,7 @@
     z-index: 1;
     padding-top: 120px;
   }
-  
+
   .area {
     display: flex;
     justify-content: flex-end;
@@ -116,5 +121,4 @@
     text-align: right;
     padding-right: 16px;
   }
-
 }
