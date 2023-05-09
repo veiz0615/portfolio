@@ -16,8 +16,9 @@
 
 .container {
   display: flex;
-  width: 1200px;
+  width: calc(100% - 200px);
   margin: 56px auto;
+  gap: 8px;
 }
 
 .textTitle {
@@ -26,6 +27,7 @@
 
 .text {
   margin-bottom: 32px;
+  font-size: 20px;
 }
 
 .left {
@@ -45,7 +47,7 @@
   margin: 0 auto;
 }
 
-@media(max-width: 750px) {
+@media (max-width: 750px) {
   .title {
     font-size: 48px;
   }

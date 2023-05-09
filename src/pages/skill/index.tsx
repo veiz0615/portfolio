@@ -42,6 +42,10 @@ export default function Skill() {
       imageType: 'node',
       name: 'Node.js',
     },
+    {
+      imageType: 'php',
+      name: 'PHP',
+    },
   ]
 
   return (

@@ -2,13 +2,14 @@ import { FC } from 'react'
 import styles from './IconView.module.css'
 import Html from '/assets/html-5-logo.svg'
 import Css from '/assets/alternate-css3-logo.svg'
-import JavaScript from '/assets/javascript-js.svg'
-import TypeScript from '/assets/typescript.svg'
+import JavaScript from '/assets/javascript.svg'
+import TypeScript from '/assets/typescript2.svg'
 import ReactJs from '/assets/reactjs-line.svg'
-import NextJs from '/assets/nextjs.svg'
+import NextJs from '/assets/nextjs2.svg'
 import VueJs from '/assets/vuejs.svg'
 import NodeJs from '/assets/nodejs.svg'
 import Git from '/assets/git.svg'
+import Php from '/assets/php.svg'
 
 type Props = {
   imageType:
@@ -21,6 +22,7 @@ type Props = {
     | 'vue'
     | 'node'
     | 'git'
+    | 'php'
   name: string
 }
 
@@ -53,6 +55,9 @@ const IconView: FC<Props> = ({ imageType, name }) => {
       break
     case 'git':
       imageDiv = <Git width="100%" height="100%" />
+      break
+    case 'php':
+      imageDiv = <Php width="100%" height="100%" />
       break
   }
 

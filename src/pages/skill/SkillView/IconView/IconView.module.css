@@ -1,0 +1,15 @@
+.root {
+  text-align: center;
+  width: 160px;
+  height: 176px;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 20px;
+}
