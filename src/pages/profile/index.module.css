@@ -13,3 +13,51 @@
   text-align: center;
   margin-bottom: 24px;
 }
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 56px auto;
+}
+
+.textTitle{
+  font-size: 32px;
+}
+
+.text {
+  margin-bottom: 32px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  text-align: center;
+}
+
+.image {
+  background-image: url(../../../assets/veizImage.jpg);
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+@media(max-width: 750px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .left {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
