@@ -1,0 +1,56 @@
+.root {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.skills {
+  margin-bottom: 56px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons1 {
+  width: 880px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.flame {
+  margin-bottom: 56px;
+}
+
+.icons2 {
+  width: 600px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+
+.left {
+  width: 25%;
+}
+
+.icon {
+  margin-left: 80px;
+}
+
+.right {
+  width: 75%;
+}
+
+.icons3 {
+  width: 632px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
