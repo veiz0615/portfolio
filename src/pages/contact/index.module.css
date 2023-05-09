@@ -42,7 +42,7 @@
   height: 40px;
   width: 160px;
   border-radius: 8px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .modalBtn:hover {
@@ -80,4 +80,28 @@
 
 .submitBtn:hover {
   cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .formArea {
+    width: 100%;
+  }
+
+  .area {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+  }
+
+  .submitBtn {
+    width: calc(100% - 48px);
+    margin-left: 24px;
+  }
 }
