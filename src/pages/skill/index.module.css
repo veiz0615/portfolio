@@ -14,7 +14,11 @@
   margin-bottom: 24px;
 }
 
-@media(max-width: 750px) {
+@media (max-width: 750px) {
+  .root {
+    margin-bottom: 48px;
+  }
+
   .title {
     font-size: 48px;
   }
@@ -22,5 +26,4 @@
   .heading {
     font-size: 24px;
   }
-
 }
