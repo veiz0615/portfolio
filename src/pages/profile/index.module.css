@@ -20,7 +20,7 @@
   margin: 56px auto;
 }
 
-.textTitle{
+.textTitle {
   font-size: 32px;
 }
 
@@ -46,6 +46,14 @@
 }
 
 @media(max-width: 750px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
   .container {
     flex-direction: column;
     width: 100%;
